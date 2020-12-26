@@ -1,0 +1,53 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+body {
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/*.grad {
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ee1b2c, #ffa500) repeat scroll 0 0;
+} */
+.grad {
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ee1b2c, #ffa500) repeat scroll 0 0;
+}
+
+.height_vh {
+  height: 100vh;
+}
+
+.margin_top_left {
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.margin_left_right {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.margin_20px {
+  margin: 20px;
+}
+
+.margin_top_bottom_50px_left_right_20px {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
